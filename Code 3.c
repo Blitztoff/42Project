@@ -1,24 +1,6 @@
-#include <unistd.h>
+#include <stdio.h>
 
-void    ft_putchar(char c)
+int	main()
 {
-    write(1, &c, 1);
-}
-
-void    ft_print_alphabet(void)
-{
-    char i;
-    
-    i = 'a';
-    while(i <= 'z')
-    {
-        ft_putchar(i);
-        i++;
-    }
-}
-
-int main(void)
-{
-    ft_print_alphabet();
-    ft_putchar('\n');
+	printf("Hello world");
 }

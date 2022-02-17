@@ -1,22 +1,6 @@
-#include <unistd.h>
+#include <stdio.h>
 
-void    ft_putchar(char c)
+int main()
 {
-    write(1, &c, 1);
-}
-
-void    ft_is_negative(int n)
-{
-    if(n < 0)
-        ft_putchar('N');
-    else
-        ft_putchar('P');
-    
-}
-
-int main(void)
-{
-    ft_is_negative(5);
-    ft_is_negative(-5);
-    ft_putchar('\n');
+	printf("Coding is easy!");
 }

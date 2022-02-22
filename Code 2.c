@@ -2,5 +2,5 @@
 
 int main()
 {
-	printf("Coding is easy!");
+	printf("Coding is super fun!");
 }
